@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="López Doblado José Alejandro">
+    <meta name="keys" content="DOM, Examen, JS, CSS">
+    <script src="javaScript.js"></script>
+    <link rel="stylesheet" href="style.css">
+     <title>Examen DOM</title>
+ </head>
+ <body>
+    <hr><!--División-->
+
+    <p>Usando DOM y formularios</p>
+    
+    <hr><!--División-->
+    
+    <p id="nombre">Nombre: </p>
+    <p id="ncontrol">Número de control: </p>
+    
+    <hr><!--División-->
+    
+    <p>Personajes favoritos</p>
+    <!--Formulario personajes-->
+    <form id="form"> 
+        <input type="text" size="35" id="personaje" autofocus onchange="this.form.elements['btnInsertarPersonaje'].disabled = false;">
+        <input type="button" value="Insertar personaje" id="btnInsertarPersonaje" onclick="makePersonaje();" class="boton" disabled>
+        <!--Tabla de personajes-->
+        <table style="width: 100%;" id="tblPersonajes"> </table>
+    </form>
+    <hr><!--División-->
+    
+    <p>Películas favoritas</p>
+    <div>
+        <center>
+            <form>
+            <input type="text" size="35" id="pelicula" autofocus onchange="this.form.elements['btnInsertarPelicula'].disabled = false;">
+            <input type="button" value="Eliminar película" id="btnInsertarPelicula" onclick="deletePelicula();" class="boton" disabled>    
+            </form>
+        </center>
+    <ol id="listaPeliculas">
+	  <li id="1">Shrek</li>
+	  <li id="2">Un mundo feliz</li>
+	  <li id="3">La vida inútil de Pito Pérez</li>
+	  <li id="4">El club de la pelea</li>
+    </ol>
+    </div>
+    <hr><!--División-->
+ </body>
+ </html>

@@ -1,0 +1,54 @@
+form, input, select, div{
+    letter-spacing: 1.2px;
+    text-align: left;
+    border-width: 2.5;
+    background-color: rgb(100, 154, 204);
+    border-radius: 4.5px;
+}
+input{
+    letter-spacing: 1.2;
+    font-size: 14;
+}
+.boton, p{
+    text-align: center;
+    align-items: center;
+    letter-spacing: 3px;
+    padding-left: 15;
+    padding-right: 15;
+    padding-top: 5;
+    padding-bottom: 5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16;
+    font-weight: bolder;
+}
+ol{
+    background-color: rgb(100, 154, 204);
+    letter-spacing: 3px;
+    padding-left: 15;
+    padding-right: 15;
+    padding-top: 5;
+    padding-bottom: 5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16;
+    font-weight: bolder; 
+}
+form{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body{
+    background-color: rgb(100, 183, 204);
+    padding-left: 400px;
+    padding-right:430px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+td{
+    background-color: rgba(127, 255, 212, 0.432);
+    text-align: center;
+}
+.pelicula, .insertarPelicula{
+    padding-left: 50;
+}
